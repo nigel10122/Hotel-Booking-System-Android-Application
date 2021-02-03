@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="15dp"
+
+        app:srcCompat="@drawable/hotel_booking_system"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="150dp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/EditText31"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/SearchForUser"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+                android:id="@+id/EditText19"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/EnterUsername"
+                android:inputType="text"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/EditText20"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/Enter_Lastname"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:importantForAutofill="no" />
+
+
+            <EditText
+                android:id="@+id/EditText21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/Enter_Firstname"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/EditText22"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/Email"
+                android:inputType="number"
+                android:gravity="center"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/EditText23"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/PhoneNumber"
+                android:inputType="text"
+                android:gravity="center"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/EditText24"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="@string/Address"
+                android:gravity="center"
+                android:background="@drawable/edittext4"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints=""
+                android:inputType="number" />
+
+            <RadioButton
+                android:id="@+id/GuestRadio"
+                android:layout_width="89dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints=""
+                android:gravity="center"
+                android:hint="@string/GuestRadio"
+                android:inputType="number"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/ManagerRadio"
+                android:layout_width="126dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="15dp"
+                android:autofillHints=""
+                android:gravity="center"
+                android:hint="@string/ManagerRadio"
+                android:inputType="number"></RadioButton>
+
+
+
+
+
+            <Button
+                android:id="@+id/UpdateReservation"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:hint="@string/SearchForUser"
+                android:gravity="center"
+                android:background="@drawable/button"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="140dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+

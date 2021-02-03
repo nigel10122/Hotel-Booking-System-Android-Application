@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/hotel_booking_system" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/modify_reservation"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_name_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="HOTEL NAME : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_name"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:editable="false"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="Maverick"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_Confirmation_number_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="CONFIRMATION NUMBER : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_Confirmation_number"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:editable="false"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="82344"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_price_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="AMOUNT TO PAY : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_price"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="32$"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_room_type_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="ROOM TYPE :  "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_room_type"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="Standard"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_number_of_rooms_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="NUMBER OF ROOMS :  "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_number_of_rooms"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_number_of_guests_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="NUMBER OF GUESTS :  "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_number_of_guests"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_check_in_date_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="CHECK IN DATE :  "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_check_in_date"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="01/12/2020"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_check_out_date_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="CHECK OUT DATE : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_check_out_date"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="02/12/2020"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_amenities_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="AMENITIES :  "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_amenities"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="WI-FI"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Hotel_manager_contact_label"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="CONTACT : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Hotel_manager_contact"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/edittext4"
+                    android:gravity="center"
+                    android:text="4657457052"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <Button
+        android:id="@+id/ModifyReservation"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="@string/modify_reservation"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-75dp"/>
+
+
+
+
+
+</LinearLayout>
+

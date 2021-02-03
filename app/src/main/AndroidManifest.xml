@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelbooking2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ManagerModifyRoomDetails" />
+        <activity android:name=".ManagerViewRoomDetails" />
+        <activity android:name=".ManagerSearchRoom" />
+        <activity android:name=".ManagerCancelReservation" />
+        <activity android:name=".ManagerModifyReservation" />
+        <activity android:name=".ManagerViewReservationDetails" />
+        <activity android:name=".ModifyManagerProfileActivity" />
+        <activity
+            android:name=".ManagerViewReservationListing"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity android:name=".AdminDeleteUser" />
+        <activity android:name=".AdminModifyUser" />
+        <activity android:name=".AdminViewUser" />
+        <activity android:name=".GuestCancelReservation" />
+        <activity android:name=".AdminSearchForUser" />
+        <activity android:name=".AdminSearchForManager" />
+        <activity android:name=".GuestMakePayment" />
+        <activity android:name=".GuestModifyReservation" />
+        <activity android:name=".ModifyGuestProfileActivity" />
+        <activity android:name=".ManagerHomeScreen" />
+        <activity android:name=".GuestHomeScreen" />
+        <activity android:name=".AdminHomeScreen" />
+        <activity android:name=".Registeruser" />
+        <!--<activity android:name=".LoginActivityManager" />-->
+        <activity android:name=".GuestSearchRoomsNew" />
+
+        <activity android:name=".GuestReservationOutput" />
+        <activity android:name=".GuestUpcomingList" />
+        <activity android:name=".GuestMakeReservation" />
+        <activity android:name=".LoginActivityAdmin" />
+        <activity android:name=".AdminViewManager" />
+        <activity android:name=".AdminDeleteManager" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivityAdmin" />
+        <activity android:name=".ProfileActivityManager" />
+        <activity android:name=".GuestViewUpcomingReservation" />
+        <activity android:name=".LoginActivityManager"/>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

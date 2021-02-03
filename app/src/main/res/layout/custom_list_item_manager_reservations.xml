@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+
+<!--    <TextView
+        android:id="@+id/ID_number"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:gravity="center_vertical|center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/circle"/>-->
+
+
+
+    <TextView
+        android:id="@+id/First_name"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical|center"
+        android:text="Guest fname"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button2"/>
+
+    <TextView
+        android:id="@+id/Room_type"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical|center"
+        android:text="Room type"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button2"/>
+
+    <TextView
+        android:id="@+id/check_in_date"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical|center"
+        android:text="Checkin"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button2"/>
+
+
+
+
+
+</LinearLayout>
